@@ -1,0 +1,13 @@
+div#image-box {
+    position: relative;
+    width: 90%;
+    z-index: 2;
+    margin-bottom: -30px;
+    /* bottom: -56px; */
+    bottom: -80px;
+    margin: 0 auto;
+}
+
+div#image-box img {
+    width: 100%;
+}

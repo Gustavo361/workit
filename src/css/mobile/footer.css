@@ -1,0 +1,49 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--tertiary-color);
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+footer div {
+    font-family: var(--manrope);
+    color: var(--primary-color);
+}
+
+div span:nth-child(1) {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+div span:nth-child(2) {
+    font-size: 38px;
+    font-weight: 300;
+}
+
+footer ul {
+    width: 46%;
+    margin-top: 14%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer ul li {
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+footer ul li ion-icon {
+    color: #594D63;
+    font-size: 28px
+}
+
+footer ul li ion-icon:hover {
+    color: var(--primary-color);
+}
