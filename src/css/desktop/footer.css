@@ -1,0 +1,22 @@
+@media (min-width:1024px) {
+    footer {}
+
+    footer div#footer-content {}
+
+    #footer-title {}
+
+    div#footer-title span:nth-child(1) {}
+
+    div#footer-title span:nth-child(2) {}
+
+    footer div#footer-content ul {}
+
+    footer div#footer-content ul li {}
+
+    footer div#footer-content ul li ion-icon {}
+
+    ul li:not(:first-child) ion-icon {}
+
+    footer div#footer-content ul li ion-icon:hover {}
+
+}

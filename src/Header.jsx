@@ -7,6 +7,8 @@ import ImageBox from './ImageBox'
 import imageHero from './assets/images/image-hero.webp'
 
 import './css/mobile/header.css'
+import './css/tablet/header.css'
+import './css/desktop/header.css'
 
 export default function Header() {
     return (

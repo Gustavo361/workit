@@ -1,0 +1,24 @@
+@media (min-width:1024px) {
+    article.card {
+        flex-direction: column;
+        max-width: 320px;
+    }
+
+    section#card-collection {
+        padding: 16% 0% 12% 0%;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    article.card h2 {
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 6%;
+        font-size: 24px;
+    }
+
+    article.card p {
+        text-align: center;
+        line-height: 140%;
+    }
+}

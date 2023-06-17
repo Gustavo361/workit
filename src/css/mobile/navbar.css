@@ -3,19 +3,19 @@ nav {
     justify-content: center;
     color: white;
     width: 100%;
-    font-family: var(--manrope)
+    font-family: var(--manrope);
+    max-width: 1000px;
 }
 
 nav ul {
     width: 92%;
-    max-width: 1100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 nav ul li {
-    font-size: 30px;
+    font-size: 30px; 
 }
 nav ul li span:first-child {
     font-size: 30px;

@@ -1,0 +1,6 @@
+@media (min-width:1024px) {
+    article.apply-card {
+        margin-top: -33%;
+        padding: 2.6% 3.6% 2.6% 3.6%;
+    }
+}

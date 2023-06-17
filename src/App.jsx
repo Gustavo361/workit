@@ -5,6 +5,7 @@ import ApplyCard from './ApplyCard'
 import Footer from './Footer'
 
 import './css/general.css'
+import './css/desktop/general.css'
 import './css/colors.css'
 import './css/fonts.css'
 import './css/mobile/image-box.css'

@@ -1,0 +1,13 @@
+@media (min-width:768px) {
+    footer {
+        padding-top: 8%;
+        padding-bottom: 12%;
+        /* background-color: red; */
+    }
+    #footer-title {
+        /* margin-bottom: 30%; */
+    }
+    footer div#footer-content ul li ion-icon {
+        font-size: 24px;
+    }
+}

@@ -6,6 +6,7 @@ div#image-box {
     /* bottom: -56px; */
     bottom: -80px;
     margin: 0 auto;
+    text-align: center;
 }
 
 div#image-box img {

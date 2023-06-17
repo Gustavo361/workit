@@ -1,0 +1,47 @@
+@media (min-width:768px) {
+    article.card {
+        width: 84%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 600px;
+    }
+
+    section#card-collection {
+        padding: 14% 0% 14% 0%;
+    }
+
+    .card-number-container {
+        width: 40px;
+        height: 40px;
+        font-size: 19px;
+    }
+
+    .card:not(:first-child) .card-number-container {
+        margin-top: 0%;
+    }
+
+    article .card-content {
+        width: 86%;
+    }
+
+    article #card-content {}
+
+    article.card h2 {
+        text-align: left;
+        padding-top: 6%;
+        padding-bottom: 3%;
+    }
+
+    article.card p {
+        text-align: left;
+        line-height: 160%;
+        color: #5F5C63;
+    }
+
+    /* .card .card-content h2:first-child {
+        padding-top: 0%;
+        background-color: red;
+        display: none;
+    } */
+}

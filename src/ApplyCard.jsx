@@ -3,6 +3,8 @@ import React from 'react'
 import Button from './Button'
 
 import './css/mobile/apply-card.css'
+import './css/tablet/apply-card.css'
+import './css/desktop/apply-card.css'
 import './css/mobile/button.css'
 
 export default function AppyCard(props) {

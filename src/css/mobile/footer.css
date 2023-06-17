@@ -8,24 +8,34 @@ footer {
     padding-bottom: 20%;
 }
 
-footer div {
+footer div#footer-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--tertiary-color);
+    max-width: 144px;
     font-family: var(--manrope);
     color: var(--primary-color);
 }
 
-div span:nth-child(1) {
+#footer-title {
+    margin-bottom: 34%;
+}
+
+div#footer-title span:nth-child(1) {
     font-size: 38px;
     font-weight: 700;
 }
 
-div span:nth-child(2) {
+div#footer-title span:nth-child(2) {
     font-size: 38px;
     font-weight: 300;
 }
 
-footer ul {
+footer div#footer-content ul {
     width: 46%;
-    margin-top: 14%;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -33,17 +43,21 @@ footer ul {
     flex-direction: row;
 }
 
-footer ul li {
+footer div#footer-content ul li {
     display: grid;
     place-items: center;
     width: 100%;
 }
 
-footer ul li ion-icon {
+footer div#footer-content ul li ion-icon {
     color: #594D63;
-    font-size: 28px
+    font-size: 28px;
 }
 
-footer ul li ion-icon:hover {
+ul li:not(:first-child) ion-icon {
+    margin-left: 30px;
+}
+
+footer div#footer-content ul li ion-icon:hover {
     color: var(--primary-color);
 }

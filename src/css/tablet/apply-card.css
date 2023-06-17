@@ -1,0 +1,27 @@
+@media (min-width:768px) {
+    article.apply-card {
+        width: 80%;
+        margin: unset;
+        margin-left: 50%;
+        margin-top: -20%;
+        padding: 4% 5% 4% 5%;
+        align-items: start;
+        max-width: 460px;
+    }
+
+    article.apply-card h2 {
+        margin-bottom: 5%;
+    }
+
+    article.apply-card p {
+        font-size: 16px;
+        text-align: left;
+        line-height: 170%;
+        margin-bottom: 5%;
+    }
+
+    article.apply-card button {
+        padding: 3.4%;
+        font-size: 14px;
+    }
+}

@@ -5,22 +5,27 @@ article.card {
     justify-content: center;
     flex-direction: column;
     color: var(--primary-color);
+    max-width: 450px;
 }
 
 .card-number-container {
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid #5F5C63;
     width: 56px;
     height: 56px;
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-size: 22px;
     font-weight: 700;
 }
 
 .card:not(:first-child) .card-number-container {
-    margin-top:16%;
+    margin-top: 16%;
 }
+
+article .card-content {}
 
 article.card h2 {
     padding-top: 6%;
@@ -29,6 +34,7 @@ article.card h2 {
     font-size: 28px;
     font-family: (--manrope);
 }
+
 article.card p {
     text-align: center;
     font-family: var(--manrope);

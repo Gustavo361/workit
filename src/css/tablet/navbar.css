@@ -1,0 +1,21 @@
+@media (min-width:768px) {
+    nav {
+        /* width: 90%; */
+    }
+
+    nav ul {
+        width: 82%;
+    }
+
+    nav ul li {
+        /* font-size: 30px; */
+    }
+
+    nav ul li span:first-child {
+        font-size: 34px;
+    }
+
+    nav ul li:last-child {
+        font-size: 18px;
+    }
+}
