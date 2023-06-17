@@ -1,3 +1,0 @@
-max width em cada component
-ou por tela
-ou a cada breakpoint
